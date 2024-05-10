@@ -1,0 +1,10 @@
+interfaces:
+  - name: eth1
+    type: ethernet
+    state: up
+    ipv4:
+      address:
+        - ip: 192.10.1.51
+          prefix-length: 24
+      dhcp: false
+      enabled: true
